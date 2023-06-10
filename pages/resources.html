@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three Containers</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        color: #04ca35;
+        margin-left: 50px;
+      }
+
+      p {
+        margin-left: 50px;
+      }
+
+      ul {
+        color: rgb(253, 253, 253);
+        margin: 10px;
+        padding: 0px 50px 75px 100px;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+      }
+
+      .header {
+        height: 50vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #fdfcfc;
+        color: #0a0a0a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .side {
+        height: 50vh;
+        width: 50%;
+        background-color: #0b7981;
+        margin: 0px;
+        padding: 0px;
+        color: rgb(254, 255, 255);
+      }
+
+      .main {
+        height: 50vh;
+        width: 50%;
+        background-color: #7ce9ec;
+        margin: 0px;
+        padding: 0px;
+        color: #fdfcfc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Join our community</h1>
+      <h2>3D-days, hassle-free money back guarantee</h2>
+    </div>
+
+    <div class="row">
+      <div class="side">Monthly subscription</div>
+
+      <div class="main">
+        <p>Why us</p>
+
+        <ul>
+          <li>Tutorials by industry experts</li>
+          <li>Peer & expert code review</li>
+          <li>Code excercises</li>
+          <li>Access to our githut repo</li>
+          <li>Community forum</li>
+          <li>Flashcard desk</li>
+          <li>New videos everyweek</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
